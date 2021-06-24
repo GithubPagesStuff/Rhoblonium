@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF4EF422268529C000962EAD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DF4EF421268529C000962EAD /* main.c */; };
+		DF4EF42B2685301C00962EAD /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4EF42A2685301C00962EAD /* libcurl.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DF4EF41E268529C000962EAD /* Rhoblonium */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rhoblonium; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4EF421268529C000962EAD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DF4EF42826852FDA00962EAD /* LocalDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalDefines.h; sourceTree = "<group>"; };
+		DF4EF42A2685301C00962EAD /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4EF42B2685301C00962EAD /* libcurl.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +47,7 @@
 			children = (
 				DF4EF420268529C000962EAD /* Rhoblonium */,
 				DF4EF41F268529C000962EAD /* Products */,
+				DF4EF4292685301C00962EAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +63,17 @@
 			isa = PBXGroup;
 			children = (
 				DF4EF421268529C000962EAD /* main.c */,
+				DF4EF42826852FDA00962EAD /* LocalDefines.h */,
 			);
 			path = Rhoblonium;
+			sourceTree = "<group>";
+		};
+		DF4EF4292685301C00962EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF4EF42A2685301C00962EAD /* libcurl.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
